@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="aferbaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="aferbaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="aspnetusers" EntityType="aferbaseModel.aspnetusers" />
+    <EntitySet Name="person" EntityType="aferbaseModel.person" />
+    <AssociationSet Name="FK_person_aspnetusers" Association="aferbaseModel.FK_person_aspnetusers">
+      <End Role="aspnetusers" EntitySet="aspnetusers" />
+      <End Role="person" EntitySet="person" />
+    </AssociationSet>
+    <AssociationSet Name="FK_person_person" Association="aferbaseModel.FK_person_person">
+      <End Role="person" EntitySet="person" />
+      <End Role="person1" EntitySet="person" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="aspnetusers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+    <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="PasswordHash" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="SecurityStamp" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNumberConfirmed" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="DateTime" />
+    <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="person" Relationship="aferbaseModel.FK_person_aspnetusers" FromRole="aspnetusers" ToRole="person" />
+  </EntityType>
+  <EntityType Name="person">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Serial" Type="Int32" Nullable="false" />
+    <Property Name="SSNumber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BirthDate" Type="DateTime" Nullable="false" />
+    <Property Name="Sex" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="FamilySituation" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NbChildren" Type="Int16" Nullable="false" />
+    <Property Name="Phone" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalMail" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Adress" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="AdditionalAddress" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="PostalCode" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Town" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="StartingDate" Type="DateTime" Nullable="false" />
+    <Property Name="LeavingDate" Type="DateTime" />
+    <Property Name="Profile" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyMail" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyPassword" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AnnualInterviewDate" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TrialPeriodStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="VacationAquired" Type="Single" Nullable="false" />
+    <Property Name="VacationTaken" Type="Single" Nullable="false" />
+    <Property Name="VacationRemaining" Type="Single" Nullable="false" />
+    <Property Name="VacationToAquire" Type="Single" Nullable="false" />
+    <Property Name="VacationRemainingFromLastYear" Type="Single" Nullable="false" />
+    <Property Name="RTTAcquired" Type="Single" Nullable="false" />
+    <Property Name="RTTTaken" Type="Single" Nullable="false" />
+    <Property Name="RTTRemainig" Type="Single" Nullable="false" />
+    <Property Name="RTTToAquire" Type="Single" Nullable="false" />
+    <Property Name="RTTRemainingFromLastYear" Type="Single" Nullable="false" />
+    <Property Name="ResponsibleId" Type="Int64" />
+    <Property Name="AspNetUserId" Type="String" MaxLength="128" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastConnexion" Type="DateTime" />
+    <NavigationProperty Name="aspnetusers" Relationship="aferbaseModel.FK_person_aspnetusers" FromRole="person" ToRole="aspnetusers" />
+    <NavigationProperty Name="person1" Relationship="aferbaseModel.FK_person_person" FromRole="person" ToRole="person1" />
+    <NavigationProperty Name="person2" Relationship="aferbaseModel.FK_person_person" FromRole="person1" ToRole="person" />
+  </EntityType>
+  <Association Name="FK_person_aspnetusers">
+    <End Type="aferbaseModel.aspnetusers" Role="aspnetusers" Multiplicity="0..1" />
+    <End Type="aferbaseModel.person" Role="person" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnetusers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="person">
+        <PropertyRef Name="AspNetUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_person_person">
+    <End Type="aferbaseModel.person" Role="person" Multiplicity="0..1" />
+    <End Type="aferbaseModel.person" Role="person1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="person">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="person1">
+        <PropertyRef Name="ResponsibleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

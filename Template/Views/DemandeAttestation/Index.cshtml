@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Template.Models.DemandeAttestation>
+<div class="card-header">
+    <h2>Toutes les demandes</h2>
+</div>
+<br />
+<a href="@Url.Action("Create","DemandeAttestation")" class="btn btn-outline-primary"> Nouvelle demande</a>
+<br />
+<br />
+
+<table id="example" class="display table table-hover" style="width:100%">
+    <thead>
+        <tr>
+            <th scope="col">Type</th>
+            <th scope="col">Date</th>
+            <th scope="col">Statut</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+     
+</table>
+
+
+@section scripts {
+
+    <script type="text/javascript">
+        $('#example').DataTable({
+            "language": {
+                "url": "http://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/French.json"
+            },
+            "drawCallback": function () {
+
+                $('[data-toggle="tooltip"]').tooltip(
+                    {
+                        html: true,
+                        container: 'body'
+                    });
+            },
+            "ajax": {
+                "datatype": "json",
+                "contentType": "application/json; charset=utf-8",
+                "url": '/DemandeAttestation/GetList',
+                "dataSrc": "",
+
+            },
+            "columns": [
+                { "data": "Type" },
+                { "data": "Date" },
+                {
+                    "data": "Statut",
+                    "render": function (row) {
+                  
+                        if (row == "Refusée" )
+                            return "<span class='badge badge-danger'>Refusée</span>"
+                        else if (row == "Annulée")
+                            return "<span class='badge badge-danger'>Annulée</span>"
+                        else if (row == "En attente")
+                            return "<span class='badge badge-primary'>En attente</span>"
+                        else
+                            return "<span class='badge badge-success'>Validée</span>"
+                    }
+
+                },
+                {
+                    "data": "url",
+                    "render": function (data, type, row) {
+                        if (row.Statut == "En attente") {
+                            return "<a href='" + row.Controller + "/Details/0' class='btn btn-outline-success btn-sm'   data-toggle='tooltip' data-placement='top' title='' data-original-title='Consulter'> <i class='fa fas fa-info-circle'></i></a><button type='button' data-toggle='modal' data-target='#example-model' class='btn btn-outline-danger btn-sm' data-toggle='tooltip' data-placement='top' data-container='body' title='' data-original-title='Annuler demande'><i class='fa fas fa-trash' ></i></button><a href='" + row.Controller + "/Edit/0' class='btn btn-outline-warning btn-sm' data-toggle='tooltip' data-placement='top' title='' data-original-title='modifier demande'><i class='fa fa-edit'></a>";
+                        }
+                        else if (row.Statut == "Validée" || row.Statut == "Annulée")
+                            return "<a href='" + row.Controller + "/Details/0' class='btn btn-outline-success btn-sm'   data-toggle='tooltip' data-placement='top' title='' data-original-title='Consulter'> <i class='fa fas fa-info-circle'></i></a>";
+                        else if (row.Statut=="Refusée")
+                            return "<a href='" + row.Controller + "/Details/0' class='btn btn-outline-success btn-sm'   data-toggle='tooltip' data-placement='top' title='' data-original-title='Consulter'> <i class='fa fas fa-info-circle'></i></a><button type='button' data-toggle='modal' data-target='#example-model' class='btn btn-outline-danger btn-sm'><i class='fa fas fa-trash' data-toggle='tooltip' data-placement='top' title='' data-original-title='Annuler demande'></i></button>";
+                    }
+                }
+            ]
+        });
+
+
+    </script>
+
+}
+
+

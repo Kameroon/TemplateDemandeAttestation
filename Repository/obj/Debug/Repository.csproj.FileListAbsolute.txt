@@ -1,0 +1,81 @@
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\Repository.dll.config
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\Repository.dll
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\Repository.pdb
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\EntityFramework.dll
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\Google.Protobuf.dll
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\MySql.Data.dll
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\Renci.SshNet.dll
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\EntityFramework.xml
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\Google.Protobuf.xml
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\MySql.Data.xml
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\Renci.SshNet.xml
+C:\Users\Malek.derbel\source\repos\Template\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Malek.derbel\source\repos\Template\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\Malek.derbel\source\repos\Template\Repository\obj\Debug\Repository.dll
+C:\Users\Malek.derbel\source\repos\Template\Repository\obj\Debug\Repository.pdb
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\NLog.config
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\DataAccessLayer.dll
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\NLog.dll
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\DataAccessLayer.pdb
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Malek.derbel\source\repos\Template\Repository\bin\Debug\NLog.xml
+C:\Users\Malek.derbel\source\repos\Template\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\NLog.config
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\Repository.dll.config
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\Repository.dll
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\Repository.pdb
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\DataAccessLayer.dll
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\EntityFramework.dll
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\Google.Protobuf.dll
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\MySql.Data.dll
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\NLog.dll
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\Renci.SshNet.dll
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\DataAccessLayer.pdb
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\DataAccessLayer.dll.config
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\EntityFramework.xml
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\Google.Protobuf.xml
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\MySql.Data.xml
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\NLog.xml
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\bin\Debug\Renci.SshNet.xml
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\obj\Debug\Repository.dll
+C:\Users\aidip\Downloads\Template (1)\Template\Repository\obj\Debug\Repository.pdb
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\NLog.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\Repository.dll.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\Repository.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\Repository.pdb
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\DataAccessLayer.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\EntityFramework.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\Google.Protobuf.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\MySql.Data.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\NLog.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\Renci.SshNet.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\DataAccessLayer.pdb
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\EntityFramework.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\Google.Protobuf.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\MySql.Data.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\NLog.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\bin\Debug\Renci.SshNet.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\obj\Debug\Repository.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Repository\obj\Debug\Repository.pdb

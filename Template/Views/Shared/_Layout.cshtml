@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <link rel="stylesheet" href="~/Content/LayoutContent/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="~/Content/LayoutContent/style4.css">
+
+    <script defer src="~/Scripts/LayoutScript/solid.min.js" crossorigin="anonymous"></script>
+    <script defer src="~/Scripts/LayoutScript/fontawesome.min.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="~/Content/LayoutContent/jquery.dataTables.min.css" />
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" class=" bg-white">
+            <div style="margin-top:10px;text-align:right;">
+                <button type="button" id="sidebarCollapse" class="btn btn-light">
+                    <i class="fa fa-arrow-circle-left"></i>
+                </button>
+            </div>
+
+            <div class="sidebar-header  bg-white text-dark">
+                <h3>AferSuivi</h3>
+                <strong>AS</strong>
+            </div>
+            <ul class="list-unstyled components bg-light text-dark">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
+                        <i class="fas fa-home"></i>
+                        Demande de Documents
+                    </a>
+                    <ul class="collapse list-unstyled show" id="homeSubmenu">
+                        <li>
+                            <a href="@Url.Action("Index","DemandeAttestation")"> Demande Attestation de Travail</a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index","ValidationDemandeAttestation")">Validation Demande Attestation de Travail</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="sidebar-header  bg-white text-dark">
+                <h3>AferLife</h3>
+                <strong>AL</strong>
+            </div>
+        </nav>
+        <!-- Page Content  -->
+        <div id="content">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <img src="~/Images/logo-afersys.png" class="img-fluid" alt="User Image">
+
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li style="margin-right: 5px;">
+
+                                <h6 style="margin-top: 15%;">User Name</h6>
+
+
+                            </li>
+                            <li class="">
+
+                                <div class="pull-left image">
+                                    <img src="~/Images/profile.png" class="img-circle" alt="User Image">
+                                </div>
+
+
+                            </li>
+                            <li class="nav-item dropdown pull-left info" style="padding:8px 0 0 5px">
+
+                                <a class=" dropdown-toggle" data-toggle="dropdown" href="#" id="dp"><span class="fas fa-align-justify"></span></a>
+                                <div class="dropdown-menu" aria-labelledby="dp">
+                                    <a class="dropdown-item" target="_blank" href="#">Employé</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#" download>changer mot de passe</a>
+                                    <a class="dropdown-item" href="#../4/cerulean/bootstrap.css" download>Deconnexion</a>
+                                    <div class="dropdown-divider"></div>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="work-aria">
+                <div id="identity">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#">
+                                @Session["Menu1"] <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#">
+                                @Session["Menu2"]
+
+                            </a>
+                        </li>
+
+                    </ol>
+                </div>
+                <div id="body">
+                    @RenderBody()
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="example-model" tabindex="-1" role="dialog" aria-labelledby="example-model" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Annulation Demande Attestation</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="exampleTextarea" class="col-sm-3 control-label">Motif Rejet</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Enregistrer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Registration done Successfully</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"
+                            href="@Url.Action("AllNewRequest","ValidationDemandeAttestation")">
+                        Close
+                    </button>
+                    <a href="@Url.Action("AllNewRequest","ValidationDemandeAttestation")" id="btnShowPopup"
+                       class="btn btn-outline-danger" data-toggle="modal" data-target="#myModal">
+                        Envoyer
+                    </a>
+                    <button type="button" class="btn btn-primary">
+                        Save changes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Scripts/LayoutScript/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="~/Scripts/umd/popper-utils.min.js" crossorigin="anonymous"></script>
+    <script src="~/Scripts/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="~/Scripts/LayoutScript/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="~/Scripts/LayoutScript/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip({
+                container: 'body'
+            });
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $('.work-aria').toggleClass('active');
+            });
+        });
+    </script>
+    @RenderSection("scripts", false)
+</body>
+</html>
+
+
+

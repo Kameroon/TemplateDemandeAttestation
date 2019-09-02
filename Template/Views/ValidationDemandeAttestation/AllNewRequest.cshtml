@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Template.Models.DemandeAttestation>
+
+@{
+    ViewBag.Title = "AllNewRequest";
+}
+
+<div class="card-header">
+    <h2>Nouvelles demandes</h2>
+</div>
+
+<br />
+<a href="@Url.Action("Index","ValidationDemandeAttestation")" class="btn btn-outline-info">Toutes les demandes</a>
+<a href="@Url.Action("AllValidatedRequest","ValidationDemandeAttestation")" class="btn btn-outline-success">Demandes validées</a>
+<br />
+<br />
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Date Demande</th>
+            <th scope="col">Nom prénom</th>
+            <th scope="col">Objet</th>
+            <th scope="col">Statut</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-light">
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>
+                <span class="badge badge-light">En attente</span>
+            </td>
+            <td>
+                <a href="@Url.Action("ViewRequest","ValidationDemandeAttestation",new {id=0 })" class="btn btn-outline-warning btn-sm"> Consulter</a>
+            </td>
+        </tr>
+        <tr class="table-secondary">
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>
+                <span class="badge badge-light">En attente</span>
+            </td>
+            <td>
+                <a href="@Url.Action("ViewRequest","ValidationDemandeAttestation",new {id=0 })" class="btn btn-outline-warning btn-sm"> Consulter</a>
+            </td>
+        </tr>
+        <tr class="table-secondary">
+            <td>18/03/2016</td>
+            <td>Hassan Hasni</td>
+            <td>Achat immobilier</td>
+            <td>
+                <span class="badge badge-light">En attente</span>
+            </td>
+            <td>
+                <a href="@Url.Action("ViewRequest","ValidationDemandeAttestation",new {id=0 })" class="btn btn-outline-warning btn-sm"> Consulter</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+

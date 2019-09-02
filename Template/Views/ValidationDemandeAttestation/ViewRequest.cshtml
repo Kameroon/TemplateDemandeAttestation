@@ -1,0 +1,76 @@
+﻿@model Template.Models.DemandeAttestation
+
+@{
+    ViewBag.Title = "ViewRequest";
+}
+
+<div class="card-header">
+    <h2>Detail de la demande</h2>
+</div>
+<br />
+
+
+<div class="card border-light mb-3">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-8">
+                <fieldset>
+                    <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="exampleSelect1">Nom prénom</label>
+                        <div class="col-sm-9">
+                            Sarkozy François
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="exampleSelect1">Date de demande</label>
+                        <div class="col-sm-9">
+                            <text>18/08/2018</text>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="exampleTextarea" class="col-sm-3 control-label">Motif</label>
+                        <div class="col-sm-9">
+                            <p>
+                                Hi Sameet, you seem to be using both the solution together. Instead of creating ElevationAngleProperty,
+                                simply bind the value of slider to ElevationAngle .
+                                It should work. Steps: 1.delete OnApplyTemplate funtion and ElevationAngleProperty 2
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="exampleTextarea" class="col-sm-3 control-label"></label>
+                        <div class="col-sm-9" style="float: right">
+                            <a href='javascript:history.go(-1)' class="btn btn-outline-secondary">Précedent</a>
+                            <a href="@Url.Action(" AllNewRequest","ValidationDemandeAttestation")" id="btnShowPopup"
+                               class="btn btn-outline-danger" data-toggle="modal" data-target="#myModal">
+                                Refuser
+                            </a>
+                            <a href="@Url.Action(" ValidatedRequest","ValidationDemandeAttestation")" class="btn btn-outline-success">Valider</a>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br /><br /><br />
+<br /><br /><br />
+
+
+<button type="button" style="display: none;" id="btnShowPopup" class="btn btn-primary btn-lg"
+        data-toggle="modal" data-target="#myModal">
+    Launch demo modal
+</button>
+
+<script type="text/javascript">
+    function ShowPopup() {
+        $("#btnShowPopup").click();
+    }
+</script>
+
+
+

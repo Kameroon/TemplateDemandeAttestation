@@ -1,0 +1,117 @@
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\NLog.config
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\TestService.exe.config
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\TestService.exe
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\TestService.pdb
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\DataAccessLayer.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\EntityFramework.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Google.Protobuf.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\MySql.Data.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\NLog.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Renci.SshNet.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Service.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Unity.Abstractions.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Unity.Container.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Repository.dll
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\DataAccessLayer.pdb
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Service.pdb
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Service.dll.config
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\EntityFramework.xml
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Google.Protobuf.xml
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\MySql.Data.xml
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\NLog.xml
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Renci.SshNet.xml
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Unity.Container.pdb
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Repository.pdb
+C:\Users\Malek.derbel\source\repos\Template\TestService\bin\Debug\Repository.dll.config
+C:\Users\Malek.derbel\source\repos\Template\TestService\obj\Debug\TestService.csprojAssemblyReference.cache
+C:\Users\Malek.derbel\source\repos\Template\TestService\obj\Debug\TestService.csproj.CoreCompileInputs.cache
+C:\Users\Malek.derbel\source\repos\Template\TestService\obj\Debug\TestService.csproj.CopyComplete
+C:\Users\Malek.derbel\source\repos\Template\TestService\obj\Debug\TestService.exe
+C:\Users\Malek.derbel\source\repos\Template\TestService\obj\Debug\TestService.pdb
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\NLog.config
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\TestService.exe.config
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\TestService.exe
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\TestService.pdb
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\DataAccessLayer.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\EntityFramework.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Google.Protobuf.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\MySql.Data.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\NLog.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Renci.SshNet.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Service.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Unity.Abstractions.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Unity.Container.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Repository.dll
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\DataAccessLayer.pdb
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\DataAccessLayer.dll.config
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Service.pdb
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Service.dll.config
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\EntityFramework.xml
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Google.Protobuf.xml
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\MySql.Data.xml
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\NLog.xml
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Renci.SshNet.xml
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Unity.Abstractions.pdb
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Unity.Container.pdb
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Repository.pdb
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\bin\Debug\Repository.dll.config
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\obj\Debug\TestService.csprojAssemblyReference.cache
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\obj\Debug\TestService.csproj.CoreCompileInputs.cache
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\obj\Debug\TestService.csproj.CopyComplete
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\obj\Debug\TestService.exe
+C:\Users\aidip\Downloads\Template (1)\Template\TestService\obj\Debug\TestService.pdb
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\NLog.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\TestService.exe.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\TestService.exe
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\TestService.pdb
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\DataAccessLayer.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\EntityFramework.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Google.Protobuf.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\MySql.Data.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\NLog.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Renci.SshNet.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Service.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Unity.Abstractions.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Unity.Container.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Repository.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\DataAccessLayer.pdb
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Service.pdb
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Service.dll.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\EntityFramework.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Google.Protobuf.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\MySql.Data.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\NLog.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Renci.SshNet.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Unity.Container.pdb
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Repository.pdb
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\bin\Debug\Repository.dll.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\obj\Debug\TestService.csprojAssemblyReference.cache
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\obj\Debug\TestService.csproj.CoreCompileInputs.cache
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\obj\Debug\TestService.csproj.CopyComplete
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\obj\Debug\TestService.exe
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\TestService\obj\Debug\TestService.pdb

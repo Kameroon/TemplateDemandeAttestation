@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="aferbaseModelStoreContainer" CdmEntityContainer="aferbaseEntities">
+    <EntitySetMapping Name="aspnetusers">
+      <EntityTypeMapping TypeName="aferbaseModel.aspnetusers">
+        <MappingFragment StoreEntitySet="aspnetusers">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person">
+      <EntityTypeMapping TypeName="aferbaseModel.person">
+        <MappingFragment StoreEntitySet="person">
+          <ScalarProperty Name="LastConnexion" ColumnName="LastConnexion" />
+          <ScalarProperty Name="CompanyPhone" ColumnName="CompanyPhone" />
+          <ScalarProperty Name="AspNetUserId" ColumnName="AspNetUserId" />
+          <ScalarProperty Name="ResponsibleId" ColumnName="ResponsibleId" />
+          <ScalarProperty Name="RTTRemainingFromLastYear" ColumnName="RTTRemainingFromLastYear" />
+          <ScalarProperty Name="RTTToAquire" ColumnName="RTTToAquire" />
+          <ScalarProperty Name="RTTRemainig" ColumnName="RTTRemainig" />
+          <ScalarProperty Name="RTTTaken" ColumnName="RTTTaken" />
+          <ScalarProperty Name="RTTAcquired" ColumnName="RTTAcquired" />
+          <ScalarProperty Name="VacationRemainingFromLastYear" ColumnName="VacationRemainingFromLastYear" />
+          <ScalarProperty Name="VacationToAquire" ColumnName="VacationToAquire" />
+          <ScalarProperty Name="VacationRemaining" ColumnName="VacationRemaining" />
+          <ScalarProperty Name="VacationTaken" ColumnName="VacationTaken" />
+          <ScalarProperty Name="VacationAquired" ColumnName="VacationAquired" />
+          <ScalarProperty Name="TrialPeriodStatus" ColumnName="TrialPeriodStatus" />
+          <ScalarProperty Name="AnnualInterviewDate" ColumnName="AnnualInterviewDate" />
+          <ScalarProperty Name="CompanyPassword" ColumnName="CompanyPassword" />
+          <ScalarProperty Name="CompanyMail" ColumnName="CompanyMail" />
+          <ScalarProperty Name="Profile" ColumnName="Profile" />
+          <ScalarProperty Name="LeavingDate" ColumnName="LeavingDate" />
+          <ScalarProperty Name="StartingDate" ColumnName="StartingDate" />
+          <ScalarProperty Name="Town" ColumnName="Town" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="AdditionalAddress" ColumnName="AdditionalAddress" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+          <ScalarProperty Name="PersonalMail" ColumnName="PersonalMail" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="NbChildren" ColumnName="NbChildren" />
+          <ScalarProperty Name="FamilySituation" ColumnName="FamilySituation" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="SSNumber" ColumnName="SSNumber" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

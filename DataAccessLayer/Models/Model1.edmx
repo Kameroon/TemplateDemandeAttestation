@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="aferbaseModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="aspnetusers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="varchar" MaxLength="128" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="256" />
+          <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+          <Property Name="PasswordHash" Type="varchar" MaxLength="500" />
+          <Property Name="SecurityStamp" Type="varchar" MaxLength="500" />
+          <Property Name="PhoneNumber" Type="varchar" MaxLength="500" />
+          <Property Name="PhoneNumberConfirmed" Type="varchar" MaxLength="500" />
+          <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+          <Property Name="LockoutEndDateUtc" Type="datetime" Precision="0" />
+          <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+          <Property Name="UserName" Type="varchar" MaxLength="256" Nullable="false" />
+        </EntityType>
+        <EntityType Name="person">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Serial" Type="int" Nullable="false" />
+          <Property Name="SSNumber" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="BirthDate" Type="date" Nullable="false" />
+          <Property Name="Sex" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="FamilySituation" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="NbChildren" Type="smallint" Nullable="false" />
+          <Property Name="Phone" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="PersonalMail" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Adress" Type="varchar" MaxLength="70" Nullable="false" />
+          <Property Name="AdditionalAddress" Type="varchar" MaxLength="70" />
+          <Property Name="PostalCode" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="Town" Type="varchar" MaxLength="40" Nullable="false" />
+          <Property Name="StartingDate" Type="date" Nullable="false" />
+          <Property Name="LeavingDate" Type="date" />
+          <Property Name="Profile" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="CompanyMail" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="CompanyPassword" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="AnnualInterviewDate" Type="varchar" MaxLength="20" />
+          <Property Name="TrialPeriodStatus" Type="varchar" MaxLength="20" />
+          <Property Name="VacationAquired" Type="float" Nullable="false" />
+          <Property Name="VacationTaken" Type="float" Nullable="false" />
+          <Property Name="VacationRemaining" Type="float" Nullable="false" />
+          <Property Name="VacationToAquire" Type="float" Nullable="false" />
+          <Property Name="VacationRemainingFromLastYear" Type="float" Nullable="false" />
+          <Property Name="RTTAcquired" Type="float" Nullable="false" />
+          <Property Name="RTTTaken" Type="float" Nullable="false" />
+          <Property Name="RTTRemainig" Type="float" Nullable="false" />
+          <Property Name="RTTToAquire" Type="float" Nullable="false" />
+          <Property Name="RTTRemainingFromLastYear" Type="float" Nullable="false" />
+          <Property Name="ResponsibleId" Type="bigint" />
+          <Property Name="AspNetUserId" Type="varchar" MaxLength="128" />
+          <Property Name="CompanyPhone" Type="varchar" MaxLength="50" />
+          <Property Name="LastConnexion" Type="datetime" Precision="0" />
+        </EntityType>
+        <Association Name="FK_person_aspnetusers">
+          <End Role="aspnetusers" Type="Self.aspnetusers" Multiplicity="0..1" />
+          <End Role="person" Type="Self.person" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="aspnetusers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="person">
+              <PropertyRef Name="AspNetUserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_person_person">
+          <End Role="person" Type="Self.person" Multiplicity="0..1" />
+          <End Role="person1" Type="Self.person" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="person">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="person1">
+              <PropertyRef Name="ResponsibleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="aferbaseModelStoreContainer">
+          <EntitySet Name="aspnetusers" EntityType="Self.aspnetusers" Schema="aferbase" store:Type="Tables" />
+          <EntitySet Name="person" EntityType="Self.person" Schema="aferbase" store:Type="Tables" />
+          <AssociationSet Name="FK_person_aspnetusers" Association="Self.FK_person_aspnetusers">
+            <End Role="aspnetusers" EntitySet="aspnetusers" />
+            <End Role="person" EntitySet="person" />
+          </AssociationSet>
+          <AssociationSet Name="FK_person_person" Association="Self.FK_person_person">
+            <End Role="person" EntitySet="person" />
+            <End Role="person1" EntitySet="person" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="aferbaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="aferbaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="aspnetusers" EntityType="aferbaseModel.aspnetusers" />
+          <EntitySet Name="person" EntityType="aferbaseModel.person" />
+          <AssociationSet Name="FK_person_aspnetusers" Association="aferbaseModel.FK_person_aspnetusers">
+            <End Role="aspnetusers" EntitySet="aspnetusers" />
+            <End Role="person" EntitySet="person" />
+          </AssociationSet>
+          <AssociationSet Name="FK_person_person" Association="aferbaseModel.FK_person_person">
+            <End Role="person" EntitySet="person" />
+            <End Role="person1" EntitySet="person" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="aspnetusers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+          <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="PasswordHash" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="SecurityStamp" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="PhoneNumberConfirmed" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="LockoutEndDateUtc" Type="DateTime" />
+          <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="person" Relationship="aferbaseModel.FK_person_aspnetusers" FromRole="aspnetusers" ToRole="person" />
+        </EntityType>
+        <EntityType Name="person">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Serial" Type="Int32" Nullable="false" />
+          <Property Name="SSNumber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BirthDate" Type="DateTime" Nullable="false" />
+          <Property Name="Sex" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="FamilySituation" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="NbChildren" Type="Int16" Nullable="false" />
+          <Property Name="Phone" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PersonalMail" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Adress" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="false" />
+          <Property Name="AdditionalAddress" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+          <Property Name="PostalCode" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Town" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="StartingDate" Type="DateTime" Nullable="false" />
+          <Property Name="LeavingDate" Type="DateTime" />
+          <Property Name="Profile" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CompanyMail" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CompanyPassword" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="AnnualInterviewDate" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="TrialPeriodStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="VacationAquired" Type="Single" Nullable="false" />
+          <Property Name="VacationTaken" Type="Single" Nullable="false" />
+          <Property Name="VacationRemaining" Type="Single" Nullable="false" />
+          <Property Name="VacationToAquire" Type="Single" Nullable="false" />
+          <Property Name="VacationRemainingFromLastYear" Type="Single" Nullable="false" />
+          <Property Name="RTTAcquired" Type="Single" Nullable="false" />
+          <Property Name="RTTTaken" Type="Single" Nullable="false" />
+          <Property Name="RTTRemainig" Type="Single" Nullable="false" />
+          <Property Name="RTTToAquire" Type="Single" Nullable="false" />
+          <Property Name="RTTRemainingFromLastYear" Type="Single" Nullable="false" />
+          <Property Name="ResponsibleId" Type="Int64" />
+          <Property Name="AspNetUserId" Type="String" MaxLength="128" FixedLength="false" Unicode="false" />
+          <Property Name="CompanyPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="LastConnexion" Type="DateTime" />
+          <NavigationProperty Name="aspnetusers" Relationship="aferbaseModel.FK_person_aspnetusers" FromRole="person" ToRole="aspnetusers" />
+          <NavigationProperty Name="person1" Relationship="aferbaseModel.FK_person_person" FromRole="person" ToRole="person1" />
+          <NavigationProperty Name="person2" Relationship="aferbaseModel.FK_person_person" FromRole="person1" ToRole="person" />
+        </EntityType>
+        <Association Name="FK_person_aspnetusers">
+          <End Type="aferbaseModel.aspnetusers" Role="aspnetusers" Multiplicity="0..1" />
+          <End Type="aferbaseModel.person" Role="person" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="aspnetusers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="person">
+              <PropertyRef Name="AspNetUserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_person_person">
+          <End Type="aferbaseModel.person" Role="person" Multiplicity="0..1" />
+          <End Type="aferbaseModel.person" Role="person1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="person">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="person1">
+              <PropertyRef Name="ResponsibleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="aferbaseModelStoreContainer" CdmEntityContainer="aferbaseEntities">
+          <EntitySetMapping Name="aspnetusers">
+            <EntityTypeMapping TypeName="aferbaseModel.aspnetusers">
+              <MappingFragment StoreEntitySet="aspnetusers">
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+                <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+                <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+                <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+                <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+                <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+                <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="person">
+            <EntityTypeMapping TypeName="aferbaseModel.person">
+              <MappingFragment StoreEntitySet="person">
+                <ScalarProperty Name="LastConnexion" ColumnName="LastConnexion" />
+                <ScalarProperty Name="CompanyPhone" ColumnName="CompanyPhone" />
+                <ScalarProperty Name="AspNetUserId" ColumnName="AspNetUserId" />
+                <ScalarProperty Name="ResponsibleId" ColumnName="ResponsibleId" />
+                <ScalarProperty Name="RTTRemainingFromLastYear" ColumnName="RTTRemainingFromLastYear" />
+                <ScalarProperty Name="RTTToAquire" ColumnName="RTTToAquire" />
+                <ScalarProperty Name="RTTRemainig" ColumnName="RTTRemainig" />
+                <ScalarProperty Name="RTTTaken" ColumnName="RTTTaken" />
+                <ScalarProperty Name="RTTAcquired" ColumnName="RTTAcquired" />
+                <ScalarProperty Name="VacationRemainingFromLastYear" ColumnName="VacationRemainingFromLastYear" />
+                <ScalarProperty Name="VacationToAquire" ColumnName="VacationToAquire" />
+                <ScalarProperty Name="VacationRemaining" ColumnName="VacationRemaining" />
+                <ScalarProperty Name="VacationTaken" ColumnName="VacationTaken" />
+                <ScalarProperty Name="VacationAquired" ColumnName="VacationAquired" />
+                <ScalarProperty Name="TrialPeriodStatus" ColumnName="TrialPeriodStatus" />
+                <ScalarProperty Name="AnnualInterviewDate" ColumnName="AnnualInterviewDate" />
+                <ScalarProperty Name="CompanyPassword" ColumnName="CompanyPassword" />
+                <ScalarProperty Name="CompanyMail" ColumnName="CompanyMail" />
+                <ScalarProperty Name="Profile" ColumnName="Profile" />
+                <ScalarProperty Name="LeavingDate" ColumnName="LeavingDate" />
+                <ScalarProperty Name="StartingDate" ColumnName="StartingDate" />
+                <ScalarProperty Name="Town" ColumnName="Town" />
+                <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+                <ScalarProperty Name="AdditionalAddress" ColumnName="AdditionalAddress" />
+                <ScalarProperty Name="Adress" ColumnName="Adress" />
+                <ScalarProperty Name="PersonalMail" ColumnName="PersonalMail" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="NbChildren" ColumnName="NbChildren" />
+                <ScalarProperty Name="FamilySituation" ColumnName="FamilySituation" />
+                <ScalarProperty Name="Sex" ColumnName="Sex" />
+                <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="SSNumber" ColumnName="SSNumber" />
+                <ScalarProperty Name="Serial" ColumnName="Serial" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

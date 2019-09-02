@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Template.Models.DemandeAttestation>
+
+@{
+    ViewBag.Title = "Index";
+}
+ 
+
+<div class="card border-light mb-3">
+    <div class="card-header"><h2>Zone de Filtre</h2></div>
+    <div class="card-body">
+        <button  id="NewRequest" class="btn btn-outline-primary">Nouvelles Demandes</button>
+        <button id="AllRequest"  class="btn btn-outline-success">Tous les Demandes</button>
+        <br />
+        <br />
+    </div>
+</div>
+<div class="card border-light mb-3">
+    <div class="card-header"> <h2>Toutes les demandes</h2></div>
+    <div class="card-body">
+        <table id="example" class="display table table-hover" style="width:100%">
+            <thead>
+                <tr>
+                    <th scope="col">Date Demande</th>
+                    <th scope="col">Nom prénom</th>
+                    <th scope="col">Objet</th>
+                    <th scope="col">Statut</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+
+        </table>
+    </div>
+    </div>
+
+
+        
+
+        @section scripts {
+
+            <script type="text/javascript">
+             var table=   $('#example').DataTable({
+                    "language": {
+                        "url": "http://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/French.json"
+                    },
+                    "drawCallback": function () {
+
+                        $('[data-toggle="tooltip"]').tooltip();
+                    },
+                    "ajax": {
+                        "datatype": "json",
+                        "contentType": "application/json; charset=utf-8",
+                        "url": '/ValidationDemandeAttestation/GetList',
+                        "dataSrc": "",
+
+                    },
+                    "columns": [
+                        { "data": "Date" },
+                        { "data": "NomPrenom" },
+                        { "data": "Objet" },
+                        {
+                            "data": "Statut",
+                            "render": function (row) {
+
+                                if (row == "Refusée")
+                                    return "<span class='badge badge-danger'>Refusée</span>"
+                                else if (row == "En Attente")
+                                    return "<span class='badge badge-light'>En attente</span>"
+                                else
+                                    return "<span class='badge badge-success'>Validée</span>"
+                            }
+
+                        },
+                        {
+                            "data": "url",
+                            "render": function (data, type, row) {
+
+                                if (row.Statut == "En Attente")
+                                    return "<a href='" + row.Controller + "/" + row.Action + "' class='btn btn-outline-warning btn-sm'   data-toggle='tooltip' data-placement='top' title='' data-original-title='Consulter'> <i class='fa fa-edit'></i></a><a href='" + row.Controller + "/" + row.Action + "' class='btn btn-outline-success btn-sm' data-toggle='tooltip' data-placement='top' title='' data-original-title='Valider'><i class='fa fa-check'> </a>";
+                                //else if (row.Statut == "Validée")
+                                //    return "<a href='" + row.Controller + "/" + row.Action + "' class='btn btn-outline-warning btn-sm'> Consulter</a>";
+                                else
+                                    return "<a href='" + row.Controller + "/" + row.Action + "' class='btn btn-outline-warning btn-sm'   data-toggle='tooltip' data-placement='top' title='' data-original-title='Consulter'> <i class='fa fa-edit'></i></a>";
+                            }
+                        }
+                    ]
+                });
+
+                $("#NewRequest").click(function () {
+                    table.ajax.url('/ValidationDemandeAttestation/NewRequest').load();
+                }); 
+                $("#AllRequest").click(function () {
+                    table.ajax.url('/ValidationDemandeAttestation/GetList').load();
+                }); 
+            </script>
+
+        }
+
+
+

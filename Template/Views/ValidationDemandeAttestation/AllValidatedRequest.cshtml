@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Template.Models.DemandeAttestation>
+
+@{
+    ViewBag.Title = "AllValidatedRequest";
+}
+
+<div class="card-header">
+    <h2>Demandes validées</h2>
+</div>
+<br />
+
+<a href="@Url.Action("Index","ValidationDemandeAttestation")" class="btn btn-outline-info">Toutes les demandes</a>
+<a href="@Url.Action("AllNewRequest","ValidationDemandeAttestation")" class="btn btn-outline-primary">Nouvelles Demandes</a>
+<br />
+<br />
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Date Demande</th>
+            <th scope="col">Nom prénom</th>
+            <th scope="col">Objet</th>
+            <th scope="col">Statut</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-light">
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>
+                <span class="badge badge-success">Validée</span>
+            </td>
+            <td>
+                <a href="@Url.Action("ViewRequest","ValidationDemandeAttestation",new {id=0 })" class="btn btn-outline-warning btn-sm"> Consulter</a>
+            </td>
+        </tr>
+        <tr class="table-light">
+            <td>11/12/2017</td>
+            <td>Marie Dbois-Gueneck</td>
+            <td>Garde d'enfant</td>
+            <td>
+                <span class="badge badge-success">Validée</span>
+            </td>
+            <td>
+                <a href="@Url.Action("ViewRequest","ValidationDemandeAttestation",new {id=0 })" class="btn btn-outline-warning btn-sm"> Consulter</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

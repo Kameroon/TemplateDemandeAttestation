@@ -1,0 +1,164 @@
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\Template.dll.config
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\Template.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\Template.pdb
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\csc.exe
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\csc.exe.config
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\csc.rsp
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\csi.exe
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\csi.exe.config
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\csi.rsp
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.AppContext.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Console.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.IO.Compression.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Security.Claims.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.ValueTuple.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\vbc.exe
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\vbc.exe.config
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\vbc.rsp
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\VBCSCompiler.exe
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\Antlr3.Runtime.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\EntityFramework.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\EntityFramework.SqlServer.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\MySql.Data.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\Newtonsoft.Json.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.Helpers.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.Mvc.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.Optimization.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.Razor.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.WebPages.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.WebPages.Razor.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\WebGrease.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\EntityFramework.xml
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\EntityFramework.SqlServer.xml
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.Helpers.xml
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.Mvc.xml
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.Optimization.xml
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.Razor.xml
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.WebPages.xml
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\System.Web.WebPages.Razor.xml
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\Newtonsoft.Json.xml
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\Antlr3.Runtime.pdb
+C:\Users\Malek.derbel\source\repos\Template\Template\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Malek.derbel\source\repos\Template\Template\obj\Debug\Template.csproj.CoreCompileInputs.cache
+C:\Users\Malek.derbel\source\repos\Template\Template\obj\Debug\Template.csproj.CopyComplete
+C:\Users\Malek.derbel\source\repos\Template\Template\obj\Debug\Template.dll
+C:\Users\Malek.derbel\source\repos\Template\Template\obj\Debug\Template.pdb
+C:\Users\Malek.derbel\source\repos\Template\Template\obj\Debug\Template.csprojAssemblyReference.cache
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\Template.dll.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\Template.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\Template.pdb
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\csc.exe
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\csc.exe.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\csc.rsp
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\csi.exe
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\csi.exe.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\csi.rsp
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.AppContext.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Console.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\vbc.exe
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\vbc.exe.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\vbc.rsp
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\Antlr3.Runtime.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\EntityFramework.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\EntityFramework.SqlServer.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\MySql.Data.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\Newtonsoft.Json.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.Helpers.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.Mvc.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.Optimization.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.Razor.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.WebPages.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\WebGrease.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\EntityFramework.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\EntityFramework.SqlServer.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.Helpers.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.Mvc.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.Optimization.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.Razor.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.WebPages.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\Newtonsoft.Json.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\Antlr3.Runtime.pdb
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\obj\Debug\Template.csprojAssemblyReference.cache
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\obj\Debug\Template.csproj.CoreCompileInputs.cache
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\obj\Debug\Template.csproj.CopyComplete
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\obj\Debug\Template.dll
+C:\Users\Sweet Family\Downloads\Template_MALEK_Afersys\Template\Template\obj\Debug\Template.pdb
